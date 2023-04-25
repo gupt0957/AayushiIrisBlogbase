@@ -2,6 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>网页弹出广告窗口 boaer.com</title>
+        <-<!-- this is a comment comment two -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"> </script>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <style>
             .floadAd {
@@ -20,9 +22,12 @@
     <body>
         <div id="floadAD" class="floadAd"> 
             <a class="close" href="javascript:void();" style="color: red">×关闭</a> 
-            <a class="item" title='首届党建文化节' href="https://fanyi.baidu.com/#en/zh/liberal%20art" target="_blank"> 
-            <img src="logo1.png" alt="首届党建文化节" /></a> 
+            <a class="item" title='advertisement' href="http://localhost/AayushiIrisBlogbase/blogBase/index.php" target="_blank"> 
+            <img src="logo.png" style ="height: 20px; width: 30px;" alt="this is advertisement" /></a> 
         </div> 
+        <div>
+            this is index page;
+        </div>
              
     </body>
     <script>
@@ -35,7 +40,6 @@
             var windowWidth = $(window).width();//浏览器宽度 
             var dirX = -1.5;//每次水平漂浮方向及距离(单位：px)，正数向右，负数向左，如果越大的话就会看起来越不流畅，但在某些需求下你可能会需要这种效果 
             var dirY = -1;//每次垂直漂浮方向及距离(单位：px)，正数向下，负数向上，如果越大的话就会看起来越不流畅，但在某些需求下你可能会需要这种效果 
-
             var delay = 30;//定期执行的时间间隔，单位毫秒 
             obj.css({left: windowWidth / 2 - obj.width() / 2 + "px", top: windowHeight / 2 - obj.height() / 2 + "px"});//把元素设置成在页面中间 
             obj.show();//元素默认是隐藏的，避免上一句代码改变位置视觉突兀，改变位置后再显示出来 
