@@ -55,7 +55,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 </div>                
                 <div class ="col-md-2"></div>                 
             </div>       
-
+gggfghg
             <nav class="flex-div" style = "background:#ba986e;">
                 <div class="nav-left flex-div">
                     <img class="menu-icon" src="menu_icon.png">
@@ -68,7 +68,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     </div>
                 </div>
                 <?php
-                session_start();
+                //session_start();
                 if (isset($_SESSION["username"])) {
                     $loggedInUser = $_SESSION["username"];
                     ?>
