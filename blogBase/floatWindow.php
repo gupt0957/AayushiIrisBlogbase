@@ -23,7 +23,10 @@
             <a class="item" title='首届党建文化节' href="https://fanyi.baidu.com/#en/zh/liberal%20art" target="_blank"> 
             <img src="logo1.png" alt="首届党建文化节" /></a> 
         </div> 
-             
+        <div>
+            test test
+            
+        </div>  
     </body>
     <script>
         FloatAd("#floadAD");
